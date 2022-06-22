@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Flyoutmenu from './Flyoutmenu'
+import Flyoutmenu from '../components/Flyoutmenu'
 
 function MyApp({ Component, pageProps }) {
   return (
