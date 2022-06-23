@@ -23,7 +23,7 @@ export default function Example() {
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <Link href="/demos/video/ixvideo" className="flex items-center">
+        <Link href="/demos/video/videoDemos" className="flex items-center">
           <img
             src="https://assets.imgix.net/presskit/imgix-presskit.pdf?page=3&auto=format,compress&w=640"
             className="mr-3 h-6 sm:h-9"
