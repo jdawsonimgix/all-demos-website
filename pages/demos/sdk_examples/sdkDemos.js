@@ -4,47 +4,39 @@ import { ExternalLinkIcon } from '@heroicons/react/solid'
 
 const demosList = [
   {
-    header: 'HLS vs MP4',
-    href: 'https://gracious-gates-e1571d.netlify.app/',
-    description: 'Compare the video experience between HLS and MP4',
-    image: '/HLSvsMP4.png',
-    tag: 'Video',
-    author: 'Jamie Dawson',
-    authorImage: '/authorImages/jamieprofile.jpeg',
-  },
-  {
-    header: 'HLS + Suggested Video Endcap Plugin',
+    header: 'React SDK + LazysizesJS',
     href:
-      'https://github.com/jdawsonimgix/js-videojs-suggestedVideoEndcap-with-imgix',
-    description: 'Control ads at the end of your videos while using HLS video.',
+      'https://codesandbox.io/s/lazysizesjs-and-react-imgix-hvdnh?file=/src/App.js',
+    description:
+      'An example of how to easily add lazy loading to your website with LazysizesJS.',
     image: '/mountains.avif',
-    tag: 'Video',
+    tag: 'SDK',
     author: 'Jamie Dawson',
     authorImage: '/authorImages/jamieprofile.jpeg',
   },
   {
-    header: 'HLS using Plyr',
-    href: 'https://codepen.io/jdawsonimgix/pen/OJjywgL',
-    description:
-      'Play HLS videos with the Plyr media player so you can customize the video overlay and add captioning.',
+    header: 'Angular and Imgix',
+    href: 'https://codesandbox.io/s/angular-sdk-imgix-iygbq',
+    description: 'An example of how to use Imgix with Angular',
     image: '/mountains.avif',
-    tag: 'Video',
+    tag: 'SDK',
     author: 'Jamie Dawson',
     authorImage: '/authorImages/jamieprofile.jpeg',
   },
   {
-    header: 'ix-video for React',
-    href: 'https://stackblitz.com/edit/react-ts-c3ncwn?file=App.tsx',
+    header: 'img-Management',
+    href:
+      'https://codesandbox.io/s/compassionate-jackson-c25j2l?file=/src/App.js',
     description:
-      'Use the Imgix video player to quickly and easily add video to your web application.',
+      'An example for how to call the management API using imgix-management-js to programmatically configure Sources and perform activities related to their assets',
     image: '/mountains.avif',
-    tag: 'Video',
+    tag: 'SDK',
     author: 'Jamie Dawson',
     authorImage: '/authorImages/jamieprofile.jpeg',
   },
 ]
 
-const videoDemos = () => {
+const sdkDemos = () => {
   return (
     <div className="antialiased bg-gray-200 text-gray-900 font-sans p-6">
       {/* ========Header======== */}
@@ -106,7 +98,7 @@ const videoDemos = () => {
                   />
                 </div>
                 <div className="p-4">
-                  <span className="inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <span className="inline-block px-2 py-1 leading-none bg-purple-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">
                     {demo.tag}
                   </span>
                   <h2 className="mt-2 mb-2  font-bold">{demo.header}</h2>
@@ -133,4 +125,4 @@ const videoDemos = () => {
   )
 }
 
-export default videoDemos
+export default sdkDemos

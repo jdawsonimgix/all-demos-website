@@ -4,47 +4,69 @@ import { ExternalLinkIcon } from '@heroicons/react/solid'
 
 const demosList = [
   {
-    header: 'HLS vs MP4',
-    href: 'https://gracious-gates-e1571d.netlify.app/',
-    description: 'Compare the video experience between HLS and MP4',
-    image: '/HLSvsMP4.png',
-    tag: 'Video',
+    header: '3D View',
+    href: 'https://codesandbox.io/s/imgix-calling-multiple-images-chakra-vu6to',
+    description:
+      'Use 3rd Party Chakra UI to call on multiple images to create a spinning 3D image',
+    image: '/mountains.avif',
+    tag: 'Image-Parameters',
     author: 'Jamie Dawson',
     authorImage: '/authorImages/jamieprofile.jpeg',
   },
   {
-    header: 'HLS + Suggested Video Endcap Plugin',
+    header: 'Custom Borders',
+    href: 'https://codesandbox.io/s/cnizz',
+    description: 'Easily add borders to images with simple parameters',
+    image: '/mountains.avif',
+    tag: 'Image-Parameters',
+    author: 'Jamie Dawson',
+    authorImage: '/authorImages/jamieprofile.jpeg',
+  },
+  {
+    header: 'Unsplash Borders',
     href:
-      'https://github.com/jdawsonimgix/js-videojs-suggestedVideoEndcap-with-imgix',
-    description: 'Control ads at the end of your videos while using HLS video.',
+      'https://sandbox.imgix.com/view?url=https%3A%2F%2Ftom.imgix.net%2F1x1_motif.png%3Ftxt-align%3Dtop%252Cleft%26txt-pad%3D25%26txt-color%3Dgrey%26txt64%3DQ29sbGVjdGlvbg%26blend-pad%3D50%26blend-align%3Dmiddle%252Cright%26blend64%3DaHR0cHM6Ly90b20uaW1naXgubmV0LzF4MV91bnNwbGFzaC5wbmc_dz0zMzQmYmc9d2hpdGUmZml0PWNyb3AmYXI9MSUzQTImbWFyazY0PWFIUjBjSE02THk5cGJXRm5aWE11ZFc1emNHeGhjMmd1WTI5dEwzQm9iM1J2TFRFMk16UTNPVEEzTmpreU16WXRNbUU0TWpRM016Vm1NelV4UDJacGREMWpjbTl3Sm1OeWIzQTlabUZqWlhNc1pXUm5aWE1tWVhJOU1Ub3gmbWFyay13PTEmbWFyay1hbGlnbj1ib3R0b20lMkNjZW50ZXImYmxlbmQ2ND1hSFIwY0hNNkx5OXBiV0ZuWlhNdWRXNXpjR3hoYzJndVkyOXRMM0JvYjNSdkxURTJNelEzTWpVek5qSXdPRE10TURrd04ySXpZVGxpTlRreFAyWnBkRDFqY205d0ptTnliM0E5Wm1GalpYTXNaV1JuWlhNbVlYSTlNVG94JmJsZW5kLXc9MSZibGVuZC1hbGlnbj10b3AlMkNjZW50ZXImYmxlbmQtbW9kZT1ub3JtYWwmYmxlbmQtcGFkPTU%26blend-mode%3Dnormal%26mark-pad%3D50%26mark-align%3Dmiddle%252Cleft%26mark-w%3D.72%26mark64%3DaHR0cHM6Ly91bnNwbGFzaC5pbWdpeC5uZXQvcGhvdG8tMTYzNDgyNDQxOTQxMC04NTk0YWE2NTY2NjE_dz02MDAmYXI9NCUzQTMmY3JvcD1mYWNlcyUyQ2VkZ2VzJmZpdD1jcm9wJm1hcms2ND1hSFIwY0hNNkx5OTBiMjB1YVcxbmFYZ3VibVYwTDFWdWMzQnNZWE5vWDB4dloyOWZSblZzYkY5WGFHbDBaVjlYWldJdWNHNW4mbWFyay13PS4yJm1hcmstYWxpZ249dG9wJTJDbGVmdCZtYXJrLXBhZD0xMA%26bg%3Dwhite%26w%3D1318%26h%3D742%26fit%3Dcrop',
+    description:
+      'Create layer on layer of multiple images and display them as a collage',
     image: '/mountains.avif',
-    tag: 'Video',
+    tag: 'Image-Parameters',
     author: 'Jamie Dawson',
     authorImage: '/authorImages/jamieprofile.jpeg',
   },
   {
-    header: 'HLS using Plyr',
-    href: 'https://codepen.io/jdawsonimgix/pen/OJjywgL',
-    description:
-      'Play HLS videos with the Plyr media player so you can customize the video overlay and add captioning.',
+    header: 'Multiple Lines of Text on Images',
+    href:
+      'https://sandbox.imgix.com/view?hasAgreedToUploadTerms=1&url=https%3A%2F%2Fsandbox-uploads.imgix.net%2Fu%2F1636068636-9db46d2b915af6f18a2747608d7648a0%3Fw%3D900%26txt64%3DQ29va3dhcmUgc2V0cw%26txt-size%3D40%26txt-align%3Dtop%252Cleft%26fm%3Dpng%26txt-font%3DAvenir%2520Next%2520Condensed%26txt-pad%3D20%26blend64%3DaHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P2ZtPXBuZyZ3PTYwMCZ0eHQtZm9udD1BdmVuaXIlMjBOZXh0JTIwQ29uZGVuc2VkJnR4dDY0PWRXNWtaWElnSkRFd01BJnR4dC1wYWQ9MjAmdHh0LXNpemU9NDA%26blend-mode%3Dnormal%26blend-align%3Dtop%252Cleft%26blend-y%3D30',
+    description: 'Easily add multiple lines of text to an image',
     image: '/mountains.avif',
-    tag: 'Video',
+    tag: 'Image-Parameters',
     author: 'Jamie Dawson',
     authorImage: '/authorImages/jamieprofile.jpeg',
   },
   {
-    header: 'ix-video for React',
-    href: 'https://stackblitz.com/edit/react-ts-c3ncwn?file=App.tsx',
-    description:
-      'Use the Imgix video player to quickly and easily add video to your web application.',
+    header: 'Add Logo to Images',
+    href:
+      'https://sandbox.imgix.com/view?hasAgreedToUploadTerms=1&url=https%3A%2F%2Fsandbox-uploads.imgix.net%2Fu%2F1637015137-42c88ce1d8a4bbc16ec3322e523a1c41%3Fmark-pad%3D10%26mark64%3DaHR0cHM6Ly9zYW5kYm94LXVwbG9hZHMuaW1naXgubmV0L3UvMTYzNzAxNTIxMi01ODZjOGFjMDFlYmI0ZTBiNGM2MTI3MDljMjVjNDgwOT93PTEwMA%26w%3D600',
+    description: 'Easily add a logo to an existing image',
     image: '/mountains.avif',
-    tag: 'Video',
+    tag: 'Image-Parameters',
+    author: 'Jamie Dawson',
+    authorImage: '/authorImages/jamieprofile.jpeg',
+  },
+  {
+    header: 'Remove Empty Space and Aspect Ratio',
+    href:
+      'https://jdawson.imgix.net/1x1_motif.png?w=687&h=687&bg=white&mark64=aHR0cHM6Ly9wcm9mb3J0by13ZWJzaG9wLmltZ2l4Lm5ldC9tZWRpYS9jYXRhbG9nL3Byb2R1Y3QvNS8wLzUwMjAxMGJsYWNrZnJvbnQucG5nP2F1dG89Zm9ybWF0LGNvbXByZXNzJmZpdD1maWxsJmZpbGwtY29sb3I9MGZmZiZ0cmltPWNvbG9yJnRyaW1jb2xvcj0jZmZm&mark-align=center%2Cmiddle',
+    description:
+      'Remove all the white space in an image and then change it to a 1:1 Aspect Ratio',
+    image: '/mountains.avif',
+    tag: 'Image-Parameters',
     author: 'Jamie Dawson',
     authorImage: '/authorImages/jamieprofile.jpeg',
   },
 ]
 
-const videoDemos = () => {
+const imageParamsDemo = () => {
   return (
     <div className="antialiased bg-gray-200 text-gray-900 font-sans p-6">
       {/* ========Header======== */}
@@ -106,7 +128,7 @@ const videoDemos = () => {
                   />
                 </div>
                 <div className="p-4">
-                  <span className="inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <span className="inline-block px-2 py-1 leading-none bg-blue-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">
                     {demo.tag}
                   </span>
                   <h2 className="mt-2 mb-2  font-bold">{demo.header}</h2>
@@ -133,4 +155,4 @@ const videoDemos = () => {
   )
 }
 
-export default videoDemos
+export default imageParamsDemo
